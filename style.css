@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body{padding:0;
+margin: 0;
+background-image: url("whirlpool/whirlpool.png");
+font-family: 'Open Sans', sans-serif;
+font-size: 20px;}
+nav {
+text-align: center;
+margin-top:2px;
+border-radius: 15px;
+
+}
+
+
+/* colors #333, #E0E1DD, #FFFFFF, #415A77, #778DA9  */
+.navbar-nav {
+    width: 100%;
+    text-align: center;
+}
+
+.navbar-nav > li{
+    float: none;
+    display: inline-block;
+}
+
+#navItems > li {
+    -webkit-transition: border-bottom .5s; /* Safari */
+    transition: border-bottom .5s;
+}
+
+#navItems > li:hover  {
+    border-bottom:2px solid white;
+}
+
+#aboutMe{
+    background-color: #778DA9;
+    margin-top: 100px;
+    padding-top:30px;
+    padding-bottom: 70px;
+    padding-left:50px;
+    padding-right: 50px;
+    color:white;
+  
+}
+.container{
+    padding:0;
+}
+hr{
+    margin-bottom: 30px;
+    border: 1px solid white;
+}
+
+#profileImg{
+    border-radius: 50%;
+    border: solid 1px white;
+}
+
+#img2{
+    font-size: 20px;
+    line-height: 40px;
+    
+}
+
+#myPortfolio{
+    margin-top:50px;
+    background-color:#415A77;
+    padding-top:30px;
+    padding-bottom: 70px;
+    padding-left:50px;
+    padding-right: 50px;
+    color:white;
+    height:600px;
+
+}
+
+#contactMe{
+    margin:50px 0 50px 0;
+    background-color:#E0E1DD;
+    padding-top:30px;
+    padding-bottom: 70px;
+    padding-left:50px;
+    padding-right: 50px;
+    color:black;
+
+}
+#cpd{
+    border: 1px solid black;
+}
+#contactMeHeader{
+    margin-bottom: 25px;
+}
+.compIcon{
+    margin-top:25px;
+  
+    background-color: black;
+    color:white;
+    font-size: 20px;
+    border-radius: 50%;
+    -webkit-transition: font-size .5s; /* Safari */
+    transition: font-size .5s;
+    border: none;
+}
+
+#leftArrowBtn{border-radius:50%;}
+#rightArrowBtn{border-radius:50%;}
+
+#buttonCont1{margin-top:15%;}
+#buttonCont2{margin-top:15%;}
+
+
+button:focus {outline:0;}
+
+#leftArrowBtn:focus {outline:0;}
+#rightArrowBtn:focus {outline:0;}
+
+#profPicInfo{text-align: center;}
+#displayDiv{text-align: center;
+padding: 10px;}
+.portImages{ display: block;
+            margin: 0 auto;}
+#diplayInfo{
+    padding-left:85px;
+    text-align: left;}
+
+.compIcon:hover{
+    font-size:25px;
+}
+.typeInput{
+    margin-bottom:10px;
+}
+#submitButton{
+    margin-top:15px;
+}
+
+a{
+    color:white;
+}
+a:hover{
+    color: white;
+}
+
+#footer{
+    text-align: center;
+    background-color: #333;
+    padding: 20px;
+}
