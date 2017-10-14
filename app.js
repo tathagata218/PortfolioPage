@@ -8,7 +8,7 @@ var imgArray=["<a  href='#'><span align='center'><img class='img-responsive img-
 "<a href='#'><span><img class='img-responsive img-rounded portImages' width='700px' height='400px' src='PortfolioPics/JS Calculator.jpg' alt='portfolio2'></span></a>",
 "<a href='#'><span><img class='img-responsive img-rounded portImages' width='700px' height='400px' src='PortfolioPics/RPG Game.jpg' alt='portfolio3'></span></a>",
 "<a href='#'><span><img class='img-responsive img-rounded portImages' width='700px' height='400px' src='PortfolioPics/Trivia Game.jpg' alt='portfolio4'></span></a>",
-"<a href='#'><span><img class='img-responsive img-rounded portImages' width='700px' height='400px' src='PortfolioPics/WikiSearch pic.jpg' alt='portfolio5'></span></a>"
+"<a href='#'><span><img class='img-responsive img-rounded portImages' width='700px' height='400px' src='PortfolioPics/WikiSearch pic.JPG' alt='portfolio5'></span></a>"
 //"<a href='#'><span><img class='img-responsive img-rounded portImages' width='700px' height:'400px' src='PortfolioPics/HangmanGame.jpg' alt='portfolio6'></span></a>"
 ];
 var descDisplay=[" <p>Description : This is the Hangman Game and it is cool</p>",
