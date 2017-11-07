@@ -12,7 +12,7 @@ var imgArray=[ <a href='https://battlemath.herokuapp.com/'><span><img class='img
 "<a  href='https://tathagata218.github.io/Wikipedia-Search/' target='_blank'><span><img class='img-responsive img-rounded portImages' width='700px' height='400px' src='PortfolioPics/WikiSearch pic.JPG' alt='portfolio5'></span></a>"
 //"<a href='#'><span><img class='img-responsive img-rounded portImages' width='700px' height:'400px' src='PortfolioPics/HangmanGame.jpg' alt='portfolio6'></span></a>"
 ];
-var descDisplay=["<p>This Game is an Educational Game where Users Can log In and Choose different charecters and solve different math problems to gain points!!!</p>",
+var descDisplay=["<p>Description : This Game is an Educational Game where Users Can log In and Choose different charecters and solve different math problems to gain points!!!</p>",
 "<p>Description : This is the Hangman Game and it is cool</p>",
 "<p>Description : This is the JavaScript Calculator which calculates all type of Calucations</p>",
 "<p>Description : This is the Dragon Ball Z game and the it's fun to Play !!!</p>",
