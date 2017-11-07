@@ -117,7 +117,8 @@ button:focus {outline:0;}
 #profPicInfo{text-align: center;}
 
 #displayDiv{text-align: center;
-padding: 10px;}
+padding: 10px;
+margin-bottom: 10px;}
 
 .portImages{ display: block;
             margin: 0 auto;}
@@ -125,6 +126,7 @@ padding: 10px;}
     padding:10px;
     text-align: left;
     font-size: 10px;
+    border-radius: 5px;
     background-color: #E0E1DD;
     color: black;}
 
