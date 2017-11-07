@@ -122,9 +122,10 @@ padding: 10px;}
 .portImages{ display: block;
             margin: 0 auto;}
 #diplayInfo{
-    padding-left:0px;
+    padding:10px;
     text-align: left;
-    background-color: white;
+    font-size: 15px;
+    background-color: #E0E1DD;
     color: black;}
 
 .compIcon:hover{
