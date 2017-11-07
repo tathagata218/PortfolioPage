@@ -115,13 +115,17 @@ button:focus {outline:0;}
 #rightArrowBtn:focus {outline:0;}
 
 #profPicInfo{text-align: center;}
+
 #displayDiv{text-align: center;
 padding: 10px;}
+
 .portImages{ display: block;
             margin: 0 auto;}
 #diplayInfo{
     padding-left:85px;
-    text-align: left;}
+    text-align: left;
+    background-color: white;
+    color: black;}
 
 .compIcon:hover{
     font-size:25px;
