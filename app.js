@@ -81,7 +81,8 @@ $("#leftArrowBtn").on("click", function(){
 
 $(".navLinks").click(function(e){
     e.preventDefault();
-    alert("it works");
+    var href = $(this).attr("href");
+    console.log(href);
 });
 
 
