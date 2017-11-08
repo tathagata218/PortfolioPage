@@ -27,7 +27,7 @@ var descDisplay=["<p>Description : This Game is an Educational Game where Users 
 
 console.log(imgArray.length);
 $("#displayDiv").html(imgArray[0]);
-$("#diplayInfo").html(descDisplay[0]);
+$("#displayInfo").html(descDisplay[0]);
 
 $("#rightArrowBtn").on("click", function(){
     event.preventDefault();
@@ -39,7 +39,7 @@ function fadeout(){
 };
 function fadein(){
     $("#displayDiv").fadeIn(100).html(imgArray[count]); 
-    $("#diplayInfo").fadeIn(100).html(descDisplay[count]);   
+    $("#displayInfo").fadeIn(100).html(descDisplay[count]);   
 };
 
 setTimeout(fadeout, 100);
@@ -56,11 +56,11 @@ $("#leftArrowBtn").on("click", function(){
     count--;
     function fadeout(){
         $("#displayDiv").fadeOut(100);
-        $("#diplayInfo").fadeOut(100);
+        $("#displayInfo").fadeOut(100);
     };
     function fadein(){
         $("#displayDiv").fadeIn(100).html(imgArray[count]); 
-        $("#diplayInfo").fadeIn(100).html(descDisplay[count]);   
+        $("#displayInfo").fadeIn(100).html(descDisplay[count]);   
     };
     
     setTimeout(fadeout, 100);

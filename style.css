@@ -70,7 +70,7 @@ hr{
     padding-left:50px;
     padding-right: 50px;
     color:white;
-    height:780px;
+    height:850px;
 
 }
 
@@ -122,13 +122,17 @@ margin-bottom: 10px;}
 
 .portImages{ display: block;
             margin: 0 auto;}
-#diplayInfo{
+#displayInfo{
     padding:10px;
     text-align: left;
     font-size: 15px;
     border-radius: 5px;
     background-color: #E0E1DD;
     color: black;}
+
+#displayInfo > br {
+    line-height: 15px;
+}
 
 .compIcon:hover{
     font-size:25px;
