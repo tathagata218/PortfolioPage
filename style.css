@@ -70,7 +70,7 @@ hr{
     padding-left:50px;
     padding-right: 50px;
     color:white;
-    height:850px;
+    height:820px;
 
 }
 
@@ -131,7 +131,7 @@ margin-bottom: 10px;}
     color: black;}
 
 #displayInfo > br {
-    line-height: 15px;
+    line-height: 5px;
 }
 
 .compIcon:hover{
