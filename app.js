@@ -21,17 +21,17 @@ var imgArray=[
 ];
 
 var descDisplay=[
-"<p>Description : This Game is an Educational Game where Users Can log In and Choose different charecters and solve different math problems to gain points!!!</p></br><p>Responsibility : Lead Backend Developer</p></br><p>Technologies : ReactJS, PassportJS, SequalizeJS, JavaScript, NodeJS, ExpressJS, MySQL</p>",
+"<p>Description : This Game is an Educational Game where Users Can log In and Choose different charecters and solve different math problems to gain points!!!</p><p>Responsibility : Lead Backend Developer</p><p>Technologies : ReactJS, PassportJS, SequalizeJS, JavaScript, NodeJS, ExpressJS, MySQL</p>",
 
-"<p>Description : This is a simple Hangman Game</p></br><p>Responsibility : Lead Developer</p></br><p>Technologies : JavaScript, HTML, CSS, JQuery, Bootstrap</p>",
+"<p>Description : This is a simple Hangman Game</p><p>Responsibility : Lead Developer</p><p>Technologies : JavaScript, HTML, CSS, JQuery, Bootstrap</p>",
 
-"<p>Description : This is the JavaScript Calculator. Please use it to Calculate your Taxes!!!</p></br><p>Responsibility : Lead Developer</p></br><p>Technologies : JavaScript,  Bootstrap, HTML, CSS, JQuery</p>",
+"<p>Description : This is the JavaScript Calculator. Please use it to Calculate your Taxes!!!</p><p>Responsibility : Lead Developer</p><p>Technologies : JavaScript,  Bootstrap, HTML, CSS, JQuery</p>",
 
-"<p>Description : This is the Dragon Ball Z game basically the users will choose a Charecter and will fight other Charecter for Points   </p><p>Responsibility : Lead Developer</p></br><p>Technologies : JavaScript, Bootstrap, HTML, CSS, JQuery</p>",
+"<p>Description : This is the Dragon Ball Z game basically the users will choose a Charecter and will fight other Charecter for Points   </p><p>Responsibility : Lead Developer</p><p>Technologies : JavaScript, Bootstrap, HTML, CSS, JQuery</p>",
 
-"<p>Description : This is the Trivia Game </p></br><p>Responsibility : Lead Developer</p></br><p>Technologies : JavaScript, HTML, CSS, JQuery</p>",
+"<p>Description : This is the Trivia Game </p><p>Responsibility : Lead Developer</p><p>Technologies : JavaScript, HTML, CSS, JQuery</p>",
 
-"<p>Description : This is the Wiki Article Search. Search Top 10 Realated Searches !!! </p><p>Responsibility : Lead Developer</p></br><p>Technologies : JavaScript, HTML, Bootstrap, CSS, JQuery</p>"];
+"<p>Description : This is the Wiki Article Search. Search Top 10 Realated Searches !!! </p><p>Responsibility : Lead Developer</p><p>Technologies : JavaScript, HTML, Bootstrap, CSS, JQuery</p>"];
 
 console.log(imgArray.length);
 $("#displayDiv").html(imgArray[0]);
