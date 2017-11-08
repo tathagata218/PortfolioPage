@@ -35,7 +35,7 @@ $("#rightArrowBtn").on("click", function(){
     console.log(count);
 function fadeout(){
     $("#displayDiv").fadeOut(100);
-    $("#diplayInfo").fadeOut(100);
+    $("#displayInfo").fadeOut(100);
 };
 function fadein(){
     $("#displayDiv").fadeIn(100).html(imgArray[count]); 
