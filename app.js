@@ -4,7 +4,7 @@ $(function(){
 //When the right button is clicked the next iamge will populate in the div
 //whrn the left button is cilecked the previous image will be populated in the div 
 var count=0;
-
+var hederHeight = $("nav").outerHeight();
 var imgArray=[ 
 "<a href='https://battlemath.herokuapp.com/' target='_blank'><span align='center'><img class='img-responsive img-rounded portImages' width='700px' height:'400px' src='PortfolioPics/battleMath.jpg' alt='portfolio1'></span></a>",
 
@@ -87,6 +87,7 @@ $(".navLinks").click(function(e){
     },1000);
     // console.log($(href).offset().top);
     console.log(href);
+    console.log(hederHeight);
 });
 
 
