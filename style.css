@@ -130,7 +130,7 @@ margin-bottom: 10px;}
     background-color: #E0E1DD;
     color: black;}
 
-#displayInfo > br {
+#displayInfo  br {
     line-height: 5px;
 }
 
