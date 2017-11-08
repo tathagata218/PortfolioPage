@@ -83,9 +83,9 @@ $(".navLinks").click(function(e){
     e.preventDefault();
     var href = $(this).attr("href");
     $("html , body").animate({
-        scrrolTop : $(href).offset().top
+        scrollTop : $(href).offset().top
     });
-    
+
     console.log(href);
 });
 
