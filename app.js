@@ -85,7 +85,7 @@ $(".navLinks").click(function(e){
     $("html , body").animate({
         scrollTop : $(href).offset().top
     });
-
+    console.log($(href).offset().top);
     console.log(href);
 });
 
