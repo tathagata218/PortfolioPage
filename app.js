@@ -18,12 +18,18 @@ var imgArray=[ "<a href='https://battlemath.herokuapp.com/' target='_blank'><spa
 "<a  href='https://tathagata218.github.io/Wikipedia-Search/' target='_blank'><span><img class='img-responsive img-rounded portImages' width='700px' height='400px' src='PortfolioPics/WikiSearch pic.JPG' alt='portfolio6'></span></a>"
 //"<a href='#'><span><img class='img-responsive img-rounded portImages' width='700px' height:'400px' src='PortfolioPics/HangmanGame.jpg' alt='portfolio6'></span></a>"
 ];
-var descDisplay=["<p>Description : This Game is an Educational Game where Users Can log In and Choose different charecters and solve different math problems to gain points!!!</p></br><p>Responsibility : Lead Backend Developer</p></br><p>Technologies : ReactJS, PassportJS, SequalizeJS, NodeJS, ExpressJS</p>",
-"<p>Description : This is the Hangman Game and it is cool</p></br><p>Responsibility : Lead Backend Developer</p></br><p>Technologies : ReactJS, PassportJS, SequalizeJS, NodeJS, ExpressJS</p>",
-"<p>Description : This is the JavaScript Calculator which calculates all type of Calucations</p></br><p>Responsibility : Lead Backend Developer</p></br><p>Technologies : ReactJS, PassportJS, SequalizeJS, NodeJS, ExpressJS</p>",
-"<p>Description : This is the Dragon Ball Z game and the it's fun to Play !!!</p></p></br><p>Responsibility : Lead Backend Developer</p></br><p>Technologies : ReactJS, PassportJS, SequalizeJS, NodeJS, ExpressJS</p>",
-"<p>Description : This is the Timed Trivia Game </p></br><p>Responsibility : Lead Backend Developer</p></br><p>Technologies : ReactJS, PassportJS, SequalizeJS, NodeJS, ExpressJS</p>",
-"<p>Description : This is the Wiki Article Search. Search Top 10 Realated Searches !!! </p></br><p>Responsibility : Lead Backend Developer</p></br><p>Technologies : ReactJS, PassportJS, SequalizeJS, NodeJS, ExpressJS</p>"];
+var descDisplay=[
+"<p>Description : This Game is an Educational Game where Users Can log In and Choose different charecters and solve different math problems to gain points!!!</p></br><p>Responsibility : Lead Backend Developer</p></br><p>Technologies : ReactJS, PassportJS, SequalizeJS, JavaScript, NodeJS, ExpressJS, MySQL</p>",
+
+"<p>Description : This is a simple Hangman Game</p></br><p>Responsibility : Lead Developer</p></br><p>Technologies : JavaScript, HTML, CSS, JQuery, Bootstrap</p>",
+
+"<p>Description : This is the JavaScript Calculator. Please use it to Calculate your Taxes!!!</p></br><p>Responsibility : Lead Developer</p></br><p>Technologies : JavaScript,  Bootstrap, HTML, CSS, JQuery</p>",
+
+"<p>Description : This is the Dragon Ball Z game basically the users will choose a Charecter and will fight other Charecter for Points   </p><p>Responsibility : Lead Developer</p></br><p>Technologies : JavaScript, Bootstrap, HTML, CSS, JQuery</p>",
+
+"<p>Description : This is the Trivia Game </p></br><p>Responsibility : Lead Developer</p></br><p>Technologies : JavaScript, HTML, CSS, JQuery</p>",
+
+"<p>Description : This is the Wiki Article Search. Search Top 10 Realated Searches !!! </p><p>Responsibility : Lead Developer</p></br><p>Technologies : JavaScript, HTML, Bootstrap, CSS, JQuery</p>"];
 
 console.log(imgArray.length);
 $("#displayDiv").html(imgArray[0]);
