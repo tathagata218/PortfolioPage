@@ -82,10 +82,10 @@ $("#leftArrowBtn").on("click", function(){
 $(".navLinks").click(function(e){
     e.preventDefault();
     var href = $(this).attr("href");
-    // $("html , body").animate({
-    //     scrollTop : $(href).offset().top
-    // });
-    console.log($(href).offset().top);
+    $("html , body").animate({
+        scrollTop : $(href).offset().top
+    },1000);
+    // console.log($(href).offset().top);
     console.log(href);
 });
 
