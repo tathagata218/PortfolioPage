@@ -83,7 +83,7 @@ $(".navLinks").click(function(e){
     e.preventDefault();
     var href = $(this).attr("href");
     $("html , body").animate({
-        scrollTop : $(href).offset().top
+        scrollTop : $(href).offset().top - hederHeight
     },1000);
     // console.log($(href).offset().top);
     console.log(href);
