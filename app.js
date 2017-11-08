@@ -5,7 +5,8 @@ $(function(){
 //whrn the left button is cilecked the previous image will be populated in the div 
 var count=0;
 
-var imgArray=[ "<a href='https://battlemath.herokuapp.com/' target='_blank'><span align='center'><img class='img-responsive img-rounded portImages' width='700px' height:'400px' src='PortfolioPics/battleMath.jpg' alt='portfolio1'></span></a>",
+var imgArray=[ 
+"<a href='https://battlemath.herokuapp.com/' target='_blank'><span align='center'><img class='img-responsive img-rounded portImages' width='700px' height:'400px' src='PortfolioPics/battleMath.jpg' alt='portfolio1'></span></a>",
 
 "<a href='https://tathagata218.github.io/Hangman-Game/' target='_blank'><span align='center'><img class='img-responsive img-rounded portImages' height='400' width='700'  src='PortfolioPics/HangmanGame.jpg' alt='portfolio2'></span></a>",
 
@@ -18,6 +19,7 @@ var imgArray=[ "<a href='https://battlemath.herokuapp.com/' target='_blank'><spa
 "<a  href='https://tathagata218.github.io/Wikipedia-Search/' target='_blank'><span><img class='img-responsive img-rounded portImages' width='700px' height='400px' src='PortfolioPics/WikiSearch pic.JPG' alt='portfolio6'></span></a>"
 //"<a href='#'><span><img class='img-responsive img-rounded portImages' width='700px' height:'400px' src='PortfolioPics/HangmanGame.jpg' alt='portfolio6'></span></a>"
 ];
+
 var descDisplay=[
 "<p>Description : This Game is an Educational Game where Users Can log In and Choose different charecters and solve different math problems to gain points!!!</p></br><p>Responsibility : Lead Backend Developer</p></br><p>Technologies : ReactJS, PassportJS, SequalizeJS, JavaScript, NodeJS, ExpressJS, MySQL</p>",
 
@@ -76,6 +78,11 @@ $("#leftArrowBtn").on("click", function(){
     }
 });
 
+
+$(".navLinks").click(function(e){
+    e.preventDefault();
+    alert("it works");
+});
 
 
 
