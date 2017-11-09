@@ -43,6 +43,15 @@ border-radius: 15px;
     color:white;
   
 }
+#educationMe{
+    background-color: #778DA9;
+    margin-top: 100px;
+    padding-top:30px;
+    padding-bottom: 70px;
+    padding-left:50px;
+    padding-right: 50px;
+    color:white;
+}
 .container{
     padding:0;
 }
