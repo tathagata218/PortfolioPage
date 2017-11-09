@@ -70,7 +70,7 @@ hr{
     padding-left:50px;
     padding-right: 50px;
     color:white;
-    height:750px;
+    height:735px;
 
 }
 
@@ -105,8 +105,8 @@ hr{
 #leftArrowBtn{border-radius:50%;}
 #rightArrowBtn{border-radius:50%;}
 
-#buttonCont1{margin-top:15%;}
-#buttonCont2{margin-top:15%;}
+#buttonCont1{margin-top:20%;}
+#buttonCont2{margin-top:20%;}
 
 
 button:focus {outline:0;}
