@@ -30,8 +30,8 @@ for (var i = 0; i < n; ++i) {
 var p = particles[i];
 p.x += p.vx; if (p.x < -maxDistance) p.x += width + maxDistance * 2; else if (p.x > width + maxDistance) p.x -= width + maxDistance * 2;
 p.y += p.vy; if (p.y < -maxDistance) p.y += height + maxDistance * 2; else if (p.y > height + maxDistance) p.y -= height + maxDistance * 2;
-p.vx += 0.6 * (Math.random() - .5) - 0.01 * p.vx;
-p.vy += 0.6 * (Math.random() - .5) - 0.01 * p.vy;
+p.vx += 0.2 * (Math.random() - .5) - 0.01 * p.vx;
+p.vy += 0.2 * (Math.random() - .5) - 0.01 * p.vy;
 context.beginPath();
 context.arc(p.x, p.y, radius, 0, tau);
 context.fillStyle= "yellow";
