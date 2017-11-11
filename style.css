@@ -39,41 +39,14 @@ border-radius: 15px;
 
 /* this is the canvas style */
 #canvasStyle{
-    position: relative;
+    
     width: 100%;
     margin-top: 90px;
     border: 2px solid darkcyan;
 }
-#displayHeader{
-    /* padding: 10px; */
-    height:40px;
-    width: 70px;
-    text-align: center;
-    border: 2px solid;
-    position: absolute;
-    top: 50%;
-    bottom: 50%;
-    left: 50%;
-    -webkit-animation: colorChange 2s infinite;  /* Safari 4+ */
-    -moz-animation: colorChange 2s infinite;  /* Fx 5+ */
-    -o-animation: colorChange 2s infinite;  /* Opera 12+ */
-    animation: colorChange 2s infinite;  
-}
 
-@keyframes colorChange {
-    0% , 24%{
-        background-color: rgb(227, 209, 63);
-        border: 3px solid #ffffff;
-    }
-    25%, 49% {
-      background-color: rgb(117, 209, 63);
-      border: 3px solid #e50000;
-    }
-    50%, 100% {
-      background-color: #e50000;
-      border: 3px solid rgb(117, 209, 63);
-    }
-  }
+
+
 
 /* this is the canvas style */
 #aboutMe{
