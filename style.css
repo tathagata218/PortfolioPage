@@ -44,7 +44,10 @@ border-radius: 15px;
     border: 2px solid darkcyan;
 }
 #displayHeader{
-    padding: 10px;
+    /* padding: 10px; */
+    height:40px;
+    width: 70px;
+    text-align: center;
     border: 2px solid;
     position: absolute;
     top: 50%;
