@@ -33,8 +33,14 @@ border-radius: 15px;
     border-bottom:2px solid white;
 }
 #canvasStyle{
+    position: relative;
     margin-top: 90px;
     border: 2px solid darkcyan;
+}
+#displayHeader{
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
 }
 #aboutMe{
     background-color: #778DA9;
