@@ -32,10 +32,13 @@ border-radius: 15px;
 #navItems > li:hover  {
     border-bottom:2px solid white;
 }
-
+#canvasStyle{
+    margin-top: 90px;
+    border: 2px solid darkcyan;
+}
 #aboutMe{
     background-color: #778DA9;
-    margin-top: 100px;
+    margin-top: 50px;
     padding-top:30px;
     padding-bottom: 70px;
     padding-left:50px;
