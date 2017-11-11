@@ -2,7 +2,7 @@ var canvas = document.querySelector("canvas"),
 context = canvas.getContext("2d"),
 width = canvas.width,
 height = canvas.height,
-radius = 2.5,
+radius = 1.5,
 minDistance = 20,
 maxDistance = 30,
 minDistance2 = minDistance * minDistance,
@@ -34,7 +34,7 @@ p.vx += 0.6 * (Math.random() - .5) - 0.01 * p.vx;
 p.vy += 0.6 * (Math.random() - .5) - 0.01 * p.vy;
 context.beginPath();
 context.arc(p.x, p.y, radius, 0, tau);
-context.fillStyle= "blue";
+context.fillStyle= "black";
 context.fill();
 }
 
