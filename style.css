@@ -40,6 +40,7 @@ border-radius: 15px;
 /* this is the canvas style */
 #canvasStyle{
     position: relative;
+    width: 100%;
     margin-top: 90px;
     border: 2px solid darkcyan;
 }
