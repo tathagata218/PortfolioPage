@@ -53,8 +53,8 @@ border-radius: 15px;
 #welcomeDiv{
     margin: 0;
     position: absolute;
-    top : 50%;
-    left :50%;
+    bottom: 0;
+    right :0;
     height: 120px;
     width:300px ;
     background-color: rgb(147, 189, 249);
