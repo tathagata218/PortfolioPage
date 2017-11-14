@@ -100,7 +100,7 @@ $(window).resize( respondCanvas );
 
 function respondCanvas(){
     c.attr('width', $(container).width() ); 
-    c.attr('height', $(container).height() ); 
+    // c.attr('height', $(container).height() ); 
 
     
 }
