@@ -3,13 +3,13 @@ context = canvas.getContext("2d"),
 width = canvas.width,
 height = canvas.height,
 radius = 3.5,
-minDistance = 20,
-maxDistance = 30,
+minDistance = 40,
+maxDistance = 60,
 minDistance2 = minDistance * minDistance,
 maxDistance2 = maxDistance * maxDistance;
 
 
-var tau = 3 * Math.PI,
+var tau = 4 * Math.PI,
 n = 150,
 particles = new Array(n);
 
