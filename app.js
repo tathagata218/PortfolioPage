@@ -86,11 +86,27 @@ $(".navLinks").click(function(e){
         scrollTop : $(href).offset().top - hederHeight
     },1000);
     // console.log($(href).offset().top);
-    console.log(href);
-    console.log(hederHeight);
+    // console.log(href);
+    // console.log(hederHeight);
 });
 
 
+//this is responsive canvas
+let c = $('#canvasStyle');
+let container = $(c).parent();
+
+
+$(window).resize( respondCanvas );
+
+function respondCanvas(){
+    c.attr('width', $(container).width() ); 
+    c.attr('height', $(container).height() ); 
+
+    
+}
+
+//Initial call
+respondCanvas();
 
 
 $("#submitButton").on('click',function(){
